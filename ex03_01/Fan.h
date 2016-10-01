@@ -2,6 +2,8 @@
 //
 //
 //Fan class
+#include<iostream>
+#include<string>
 class Fan 
 {
 public:
@@ -9,18 +11,21 @@ public:
 	bool on;
 	double radius;
 	//default
-	Fan(){}
+	Fan()
+	{
+		speed = 1;
+		on = false;
+		radius = 5;
+	}
 
 	bool turnOn()
 	{
-		on = true;
+		return on = true;
 	}
 	bool turnOff()
 	{
-		on = false;
+		return on = false;
 	};
-	void setRadius()
-	{
-
-	}
+	void setRadius();
+	void setSpeed();
 };

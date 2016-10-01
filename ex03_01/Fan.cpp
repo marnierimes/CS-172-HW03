@@ -2,6 +2,7 @@
 //
 #include<iostream>
 #include"Fan.h"
+#include<string>
 
 Fan::Fan()
 {
@@ -11,11 +12,5 @@ Fan::Fan()
 	
 }
 
-bool Fan::turnOn()
-{
-	return on = true;
-}
-bool Fan::turnOff()
-{
-	return on = false;
-};
+void Fan::setRadius(){};
+void Fan::setSpeed(){};
