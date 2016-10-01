@@ -1,5 +1,6 @@
 //
 //
+#include<iostream>
 #include"Fan.h"
 
 Fan::Fan()
@@ -9,3 +10,12 @@ Fan::Fan()
 	radius = 5;
 	
 }
+
+bool Fan::turnOn()
+{
+	return on = true;
+}
+bool Fan::turnOff()
+{
+	return on = false;
+};
