@@ -1,17 +1,15 @@
 //
 //Marnie Rimes
 //09-29-16
-// HW03 ex03_02
-// Liang exercise 9.6:Algeba: Quadratic equations
+// HW03 ex03_03
+// Liang exercise 9.11: The Even Number Class
 //
 
 #include<iostream>
-#include"QuadraticEquation.h"
+#include"EvenNumber.h"
 using namespace std;
 
 int main()
 {
-	int a, b, c;
-	cout << "Enter in the values for a, b, and c ";
-	cin >> a >> b >> c;
+
 }
